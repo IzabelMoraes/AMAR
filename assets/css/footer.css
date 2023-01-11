@@ -1,0 +1,37 @@
+footer{
+    background: #DDDDDD;
+    border-radius:12.5rem 0.938rem 0rem 0rem;
+}
+
+.redes{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-align: center;
+    margin-right:26.75rem;
+    margin-left:26.75rem  ;
+    margin-top:2rem;
+    margin-bottom: 4rem;
+}
+
+#icon_instagram{
+    height: 3.125rem;
+    width: 3.125rem;
+    margin-top:1rem;
+}
+
+
+#icon_email{
+    height: 3.125rem;
+    width: 3.125rem;
+   
+}
+
+#agencia {
+    text-align: center;
+
+}
+
+#direitos{
+    text-align: center;
+    
+}
