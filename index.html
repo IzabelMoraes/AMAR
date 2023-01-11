@@ -8,6 +8,9 @@
         <link rel="stylesheet" href="./assets/css/whats-icon-left.css">
         <link rel="stylesheet" href="./assets/css/header.css">
         <link rel="stylesheet" href="./assets/css/footer.css">
+        <link rel="stylesheet" href="./assets/css/sobre.css">
+        <link rel="stylesheet" href="./assets/css/motivos.css">
+        <link rel="stylesheet" href="./assets/css/cotacao.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
         <title>AMAR - Agência de Viagens</title>
@@ -24,71 +27,113 @@
         </header>
         
         <main>
-            <section>
-                <img src="./assets/img/praia.png" alt="">
-                <h2>Sobre nós</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Consectetur officia magni laboriosam. Vel fugit dolores iusto, amet adipisci, 
-                nostrum ipsam quisquam quae temporibus, qui doloremque obcaecati in ut maiores magnam.
-                Vel fugit dolores iusto, amet adipisci, 
-                nostrum ipsam quisquam quae temporibus, qui doloremque obcaecati in ut maiores magnam.
-                </p>
+            <section class="sobre">
+                <img src="./assets/img/praia-img.jpg" alt="">
+                <section class="sobre__texto">
+                    <h2>Sobre nós</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Consectetur officia magni laboriosam. Vel fugit dolores iusto, amet adipisci, 
+                    nostrum ipsam quisquam quae temporibus, qui doloremque obcaecati in ut maiores magnam.
+                    Vel fugit dolores iusto, amet adipisci, 
+                    nostrum ipsam quisquam quae temporibus, qui doloremque obcaecati in ut maiores magnam.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nemo magnam quidem pariatur impedit sunt, 
+                    suscipit harum perferendis, atque reiciendis labore recusandae asperiores minima praesentium ea molestiae explicabo tempora rem.
+                    </p>
+
+                    <p>
+                        Curabitur facilisis dui in dui bibendum, a pretium massa auctor. 
+                        Sed nec dui id dui lobortis auctor vel eu lorem. 
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                        Nam condimentum leo dolor, quis porta dui lacinia dignissim. Ut vel tortor sed ligula tincidunt vulputate. 
+                        Maecenas aliquam enim vitae libero rhoncus laoreet. Aliquam risus augue, ullamcorper egestas bibendum nec, auctor eget erat. 
+                        Nulla facilisi. Nam sit amet volutpat nisi, a pellentesque tortor. 
+                        Suspendisse potenti. Mauris luctus elementum gravida.
+                    </p>
+
+                    <p>
+                        Duis sit amet nisl vel ex placerat tincidunt in ac urna. 
+                        Pellentesque et erat et mauris feugiat porttitor id ut nulla. 
+                        Vestibulum tortor neque, aliquam id ex id, ornare eleifend justo. 
+                        Sed sit amet ultricies velit. In tempor dui at nisi pharetra, in mollis mauris aliquet. 
+                        Integer gravida justo risus, et iaculis mi placerat sit amet. Ut lacus ligula, malesuada nec bibendum vitae, tincidunt at diam. 
+                        Suspendisse potenti. Curabitur suscipit ante a maximus pellentesque. 
+                        Quisque luctus purus mollis eros venenatis egestas.
+                    </p>
+                </section>
             </section>
             
-            <section>
-                <h2>Por que as pessoas escolhem a AMAR Viagens</h2>
+            <section class="motivos">
+                <h2>Por que as pessoas escolhem a <b>AMAR Viagens</b></h2>
                 
-                <img src="./assets/img/icons/suporte.png" alt="">
-                <h3>Suporte</h3>
-                <p>Acompanhamento do início ao fim da sua viagem!</p>
-                
-                <img src="./assets/img/icons/trofeu.png" alt="">
-                <h3>Experiência</h3>
-                <p>Profissionais com anos de experiência no turismo</p>
-                
-                <img src="./assets/img/icons/precos.png" alt="">
-                <h3>Preços imbatíveis</h3>
-                <p>Faça sua cotação e comprove que temos os melhores preços</p>
+                <section class="motivos__flex">
+                    <section class="motivos__flex-suporte">
+                        <img src="./assets/img/icons/suporte.png" alt="">
+                        <h3>Suporte</h3>
+                        <p>Acompanhamento do início ao fim da sua viagem!</p>
+                    </section>
+                    <section class="motivos__flex-experiencias">   
+                        <img src="./assets/img/icons/trofeu.png" alt="">
+                        <h3>Experiência</h3>
+                        <p>Profissionais com anos de experiência no turismo</p>
+                    </section> 
+                    <section class="motivos__flex-precos">   
+                        <img src="./assets/img/icons/precos.png" alt="">
+                        <h3>Preços imbatíveis</h3>
+                        <p>Faça sua cotação e comprove que temos os melhores preços</p>
+                    </section> 
+                </section>
             </section>
 
-            <section>
+            <section class="cotacao">
                 <p>Só na AMAR Viagens você tem a melhor experiência durante toda sua viagem!
-                    <b>
-                        Faça agora sua cotação e garanta uma consultoria exclusiva.
-                    </b>
+                </p>
+                <p>
+                    Faça agora sua cotação e garanta uma consultoria exclusiva.
                 </p>
                 <form action="">
-                    <label for="nome">Nome</label>
-                    <input type="text" name="nome" id="nome" placeholder="Nome completo" required>
-                    
-                    <label for="whats">WhatsApp</label>
-                    <input type="tel" name="whats" id="whats" placeholder="Insira seu WhatsApp" required>
-                
-                    <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email" placeholder="Coloque seu melhor e-mail" required>
-                    
-                    <label for="origem">Origem</label>
-                    <input type="text" name="origem" id="origem" placeholder="Local de partida" required>
-                    
-                    <label for="destino">Destino</label>
-                    <input type="text" name="destino" id="destino" placeholder="Para onde você vai?" required>
-                    
-                    <label for="data_ida">Data da ida</label>
-                    <input type="text" name="data_ida" id="data_ida" required>
+                    <section class="cotacao__form">
+                        <ul class="cotacao__form-grupo-g">
+                            <li>
+                                <label for="nome">Nome</label>
+                                <input type="text" name="nome" id="nome" placeholder="Nome completo" required>
+                            </li>
+                        </ul>
 
-                    <label for="data_volta">Data da volta</label>
-                    <input type="text" name="data_volta" id="data_volta" required>
+                        <ul class="cotacao__form-grupo-m">
+                            <label for="whats">WhatsApp</label>
+                            <input type="tel" name="whats" id="whats" placeholder="Insira seu WhatsApp" required>
+                        
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" id="email" placeholder="Coloque seu melhor e-mail" required>
+                        </ul>
 
-                    <label for="adulto">Adultos</label>
-                    <input type="text" name="adulto" id="adulto" placeholder="Quantos adultos irão viajar?" required>
+                        <ul class="cotacao__form-grupo">
+                            <label for="origem">Origem</label>
+                            <input type="text" name="origem" id="origem" placeholder="Local de partida" required>
+                            
+                            <label for="destino">Destino</label>
+                            <input type="text" name="destino" id="destino" placeholder="Para onde você vai?" required>
+                            
+                            <label for="data_ida">Data da ida</label>
+                            <input type="date" name="data_ida" id="data_ida" required>
+                        </ul>
 
-                    <label for="crianca">Crianças</label>
-                    <input type="text" name="crianca" id="crianca" placeholder="Quantas crianças irão viajar?" required>
+                        <ul class="cotacao__form-grupo">
+                            <label for="data_volta">Data da volta</label>
+                            <input type="date" name="data_volta" id="data_volta" required>
 
-                    <button type="submit">Embarque já<img></button>
+                            <label for="adulto">Adultos</label>
+                            <input type="number" name="adulto" id="adulto" placeholder="Quantos adultos irão viajar?" required>
+
+                            <label for="crianca">Crianças</label>
+                            <input type="number" name="crianca" id="crianca" placeholder="Quantas crianças irão viajar?" required>
+                        </ul>
+                    </section>
+                   
+                    <button type="submit" id="cotacao__form-botao">Embarque já</button>
                 </form>
-            </section>
-            
+            </section>    
+
             <div class="icon">
                 <a href="#"><img src="./assets/img/icons/whats.png" alt="WhatsApp" id="icone_whats"></a>
             </div>
