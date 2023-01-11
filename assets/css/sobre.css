@@ -1,0 +1,27 @@
+.sobre{
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+}
+
+.sobre img{
+    width: 28.75rem;
+    height: 26.313rem;
+    border-radius: 0.75rem;
+}
+
+.sobre__texto{
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.sobre__texto h2{
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.sobre__texto p{
+    text-align: justify;
+    padding-bottom: 1rem;
+}
