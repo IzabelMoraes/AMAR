@@ -1,0 +1,76 @@
+.cotacao{
+    padding: 0.75rem 2rem;
+    margin: auto;
+    background-color: #DDDDDD;
+    border-radius: 1rem;
+    width: 68.75rem;
+    height: 34.375rem;
+}
+
+.cotacao p{
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 1.25rem;
+}
+
+.cotacao__form-grupo-g{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.cotacao__form-grupo-m{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.cotacao__form-grupo{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.cotacao__form-grupo-g label{
+    font-size: 1.075rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cotacao__form-grupo-m label{
+    font-size: 1.075rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cotacao__form-grupo label{
+    font-size: 1.075rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cotacao__form-grupo-g input{
+    width: 66.125rem;
+    height: 1.563rem;
+}
+
+.cotacao__form-grupo-m input{
+    width: 24.188rem;
+    height: 1.563rem;
+}
+
+.cotacao__form-grupo input{
+    width: 20.625rem;
+    height: 1.563rem;
+}
+
+#cotacao__form-botao{
+    font-size: 1.375rem;
+    border-radius: 1rem;
+    border-color: white;
+    width: 11.25rem;
+    height: 2.025rem;
+    color: #570000;
+    background-color: white;
+    font-weight: bold;
+}
