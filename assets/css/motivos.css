@@ -1,0 +1,56 @@
+.motivos{
+    padding: 2.75rem;
+}
+
+.motivos h2{
+    text-align: center;
+    font-size: 1.375rem;
+    margin-bottom: 1.075rem;
+}
+
+.motivos b{
+    font-weight: bold;
+}
+
+.motivos__flex{
+    display: flex;
+}
+
+
+.motivos__flex img{
+    width: 3.125rem;
+    height: 3.125rem;
+}
+
+.motivos__flex h3{
+    color: #570000;
+    font-weight: bold;
+    margin: 0.75rem 0 1rem;
+    font-size: 1.375rem; 
+}
+
+.motivos__flex p{
+    font-size: 1.075rem;
+    text-align: center;
+}
+
+.motivos__flex-suporte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.motivos__flex-experiencias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.motivos__flex-precos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
