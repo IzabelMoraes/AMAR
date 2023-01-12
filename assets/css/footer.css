@@ -6,32 +6,33 @@ footer{
 .redes{
     font-family: 'Montserrat';
     font-weight: bold;
-    text-align: center;
-    margin-right:26.75rem;
+    line-height: 2.641rem;
     margin-left:26.75rem  ;
+    margin-right:26.75rem;
     margin-top:2rem;
-    margin-bottom: 4rem;
-}
+    text-align: center;
+}  
 
 #icon_instagram{
     height: 3.125rem;
     width: 3.125rem;
-    margin-top:1rem;
+    margin: 0.5rem;
 }
-
 
 #icon_email{
     height: 3.125rem;
     width: 3.125rem;
-   
+    margin: 0.5rem;
 }
 
 #agencia {
+    font-family: 'Montserrat';
+    line-height: 2.641rem;
     text-align: center;
-
 }
 
 #direitos{
+    font-family: 'Montserrat';
+    line-height: 2.641rem;
     text-align: center;
-    
 }
