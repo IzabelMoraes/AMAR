@@ -1,17 +1,18 @@
 header{
     background: #DDDDDD;
-}
-
-h1{
-    font-family: 'Montserrat';
-    position: relative; 
-    bottom: 1.438rem; 
-    left: 7rem; 
-    top: 2.5rem;  
-}
-
-h2{
+    height: 4rem;
     font-family: 'Montserrat' ;
+}
+
+.menu__reto{
+    display: inline-flex;
+    position: relative;
+    top: 1.075rem;
+}
+
+.menu__reto h1{
+    position: relative;
+    left: 2rem;
 }
 
 nav h2:hover {
@@ -22,15 +23,17 @@ nav h2:hover {
 
 
 .logo{
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
     position: relative; 
     bottom:0.438rem; 
     left: 1.875rem; 
     right: 0.188rem; 
 }
 
-#botao_orcamento {
-    position: relative; 
-    left: 70rem ; 
-    bottom:  3.563rem ;
+#botao__orcamento{
+    position: relative;
+    left: 68rem;
+    top: 0.625rem;
 }
+
