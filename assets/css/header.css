@@ -4,7 +4,10 @@ header{
 
 h1{
     font-family: 'Montserrat';
-    position: relative; bottom: 1.438rem; left: 7rem; top: 2.5rem;  
+    position: relative; 
+    bottom: 1.438rem; 
+    left: 7rem; 
+    top: 2.5rem;  
 }
 
 h2{
@@ -20,9 +23,14 @@ nav h2:hover {
 
 .logo{
     height: 4rem;
-    position: relative; bottom:0.438rem; left: 1.875rem; right: 0.188rem; 
+    position: relative; 
+    bottom:0.438rem; 
+    left: 1.875rem; 
+    right: 0.188rem; 
 }
 
 #botao_orcamento {
-    position: relative; right : 1,063 ; left: 70rem ; bottom:  3.563rem ;
+    position: relative; 
+    left: 70rem ; 
+    bottom:  3.563rem ;
 }
