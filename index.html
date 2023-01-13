@@ -17,13 +17,14 @@
     </head>
     <body>
         <header>
-            <h1>Embarque com a
-                <br> AMAR Viagens</h1>
-            <img class="logo" src="./assets/img/logo.png" alt="">
-
-            <nav>
-                <h2 id="botao_orcamento">Solicite um orçamento!</h2>
-            </nav>
+            <div class="menu__reto">
+                <img class="logo" src="./assets/img/logo.png" alt="">
+                <h1>Embarque com a
+                    <br> AMAR Viagens</h1>
+                <nav>
+                    <h2 id="botao_orcamento">Solicite um orçamento!</h2>
+                </nav>
+            </div>
         </header>
         
         <main>
@@ -100,33 +101,44 @@
                         </ul>
 
                         <ul class="cotacao__form-grupo-m">
-                            <label for="whats">WhatsApp</label>
-                            <input type="tel" name="whats" id="whats" placeholder="Insira seu WhatsApp" required>
-                        
-                            <label for="email">E-mail</label>
-                            <input type="email" name="email" id="email" placeholder="Coloque seu melhor e-mail" required>
+                            <div class="cotacao__form-grupo-separacao">
+                                <label for="whats">WhatsApp</label>
+                                <input type="tel" name="whats" id="whats" placeholder="Insira seu WhatsApp" required>
+                            </div>
+                            <div class="cotacao__form-grupo-separacao">
+                                <label for="email">E-mail</label>
+                                <input type="email" name="email" id="email" placeholder="Coloque seu melhor e-mail" required>
+                            </div>
                         </ul>
 
                         <ul class="cotacao__form-grupo">
-                            <label for="origem">Origem</label>
-                            <input type="text" name="origem" id="origem" placeholder="Local de partida" required>
-                            
-                            <label for="destino">Destino</label>
-                            <input type="text" name="destino" id="destino" placeholder="Para onde você vai?" required>
-                            
-                            <label for="data_ida">Data da ida</label>
-                            <input type="date" name="data_ida" id="data_ida" required>
+                            <div class="cotacao__form-grupo-separacao">
+                                <label for="origem">Origem</label>
+                                <input type="text" name="origem" id="origem" placeholder="Local de partida" required>
+                            </div>    
+                            <div class="cotacao__form-grupo-separacao">
+                                <label for="destino">Destino</label>
+                                <input type="text" name="destino" id="destino" placeholder="Para onde você vai?" required>
+                            </div>   
+                            <div class="cotacao__form-grupo-separacao">
+                                <label for="data_ida">Data da ida</label>
+                                <input type="date" name="data_ida" id="data_ida" required>
+                            </div> 
                         </ul>
 
                         <ul class="cotacao__form-grupo">
-                            <label for="data_volta">Data da volta</label>
-                            <input type="date" name="data_volta" id="data_volta" required>
-
-                            <label for="adulto">Adultos</label>
-                            <input type="number" name="adulto" id="adulto" placeholder="Quantos adultos irão viajar?" required>
-
-                            <label for="crianca">Crianças</label>
-                            <input type="number" name="crianca" id="crianca" placeholder="Quantas crianças irão viajar?" required>
+                            <div class="cotacao__form-grupo-separacao">
+                                <label for="data_volta">Data da volta</label>
+                                <input type="date" name="data_volta" id="data_volta" required>
+                            </div>
+                            <div class="cotacao__form-grupo-separacao">
+                                <label for="adulto">Adultos</label>
+                                <input type="number" name="adulto" id="adulto" placeholder="Quantos adultos irão viajar?" required>
+                            </div>
+                            <div class="cotacao__form-grupo-separacao">
+                                <label for="crianca">Crianças</label>
+                                <input type="number" name="crianca" id="crianca" placeholder="Quantas crianças irão viajar?" required>
+                            </div>
                         </ul>
                     </section>
                    
