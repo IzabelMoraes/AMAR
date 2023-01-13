@@ -37,8 +37,10 @@ nav h2:hover {
 }
 
 #botao{
+    display: inline-flex;
     position: relative;
-    left: 60rem;
-    top: 0.378rem;
+    left: 45rem;
+    top: 0.625rem;
+    margin-left: 2rem;
 }
 
