@@ -15,6 +15,11 @@ header{
     left: 2rem;
 }
 
+nav h2, a{
+    color: black;
+    text-decoration: none;
+}
+
 nav h2:hover {
 	color: #2020C0;
     font-weight: bold;
