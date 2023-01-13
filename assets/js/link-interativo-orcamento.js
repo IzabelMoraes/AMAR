@@ -1,4 +1,4 @@
-const botao = document.querySelector('#botao_orcamento');
+const botao = document.querySelector('#botao');
 
 botao.addEventListener('click', () =>{
     window.scroll({top: window.innerHeight, behavior:"smooth"});
