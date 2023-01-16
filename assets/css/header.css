@@ -1,5 +1,5 @@
 header{
-    background: #DDDDDD;
+    background: #FFFFFF;
     height: 4rem;
     font-family: 'Montserrat' ;
 }
@@ -39,7 +39,7 @@ nav h2:hover {
 #botao{
     display: inline-flex;
     position: relative;
-    left: 45rem;
+    left: 40rem;
     top: 0.625rem;
     margin-left: 2rem;
 }
