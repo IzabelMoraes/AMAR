@@ -27,7 +27,7 @@
    }
 
 .caixa img, .current-item{
-    width: 16.875rem;
+    width: 15.875rem;
     height: 21.25rem;
     object-fit: cover;
     border-radius: 1rem 1rem 0rem 0rem; 
@@ -37,8 +37,9 @@
 
 .caixa li:hover{ 
     transform: scale(1.1);
-    border-radius: 1rem; 
+    border-radius: 2rem; 
     cursor: pointer;
+    border-color: #333;
    }
 
 
@@ -80,6 +81,7 @@
     position: relative;
 }
 
+
 .arrow-left{
     position: absolute;
     border-radius: 0.625rem;
@@ -88,7 +90,7 @@
     background: #fff center no-repeat ;
     box-shadow: 0rem 0rem 1.5rem rgb(0 0 0 / 10%);
     border-color: #ffffff00;
-    right: -0.875rem;
+    right: 0;
     top: 50%;
     transform: translateY(-50%);
     z-index: 9999;
