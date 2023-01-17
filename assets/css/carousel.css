@@ -85,29 +85,31 @@
 .arrow-left{
     position: absolute;
     border-radius: 0.625rem;
-    height: 2.5rem;
+    height: 6.5rem;
     width: 2.5rem;
-    background: #fff center no-repeat ;
+    background: #dbdbdb center no-repeat ;
     box-shadow: 0rem 0rem 1.5rem rgb(0 0 0 / 10%);
-    border-color: #ffffff00;
+    border-color: #dbdbdb;
     right: 0;
     top: 50%;
     transform: translateY(-50%);
     z-index: 9999;
+    opacity: 80%;
 }
 
 .arrow-right{
     position: absolute;
     border-radius: 0.625rem;
-    height: 2.5rem;
+    height: 6.5rem;
     width: 2.5rem;
-    background: #fff center no-repeat ;
+    background: #dbdbdb center no-repeat ;
     box-shadow: 0rem 0rem 1.5rem rgb(0 0 0 / 10%);
     border-color: #ffffff00;
     left: 0;
     top: 50%;
     z-index: 9999;
     transform: translateY(-50%);
+    opacity: 80%;
 }
 
 .arrow-right:hover , .arrow-left:hover{
