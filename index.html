@@ -7,13 +7,14 @@
         <link rel="stylesheet" href="./assets/css/reset.css">
         <link rel="stylesheet" href="./assets/css/whats-icon-left.css">
         <link rel="stylesheet" href="./assets/css/header.css">
-        <link rel="stylesheet" href="./assets/css/footer.css">
+        <link rel="stylesheet" href="./assets/css/slider.css">
+        <link rel="stylesheet" href="./assets/css/carousel-slider.css">
         <link rel="stylesheet" href="./assets/css/sobre.css">
+        <link rel="stylesheet" href="./assets/css/carousel.css">
         <link rel="stylesheet" href="./assets/css/motivos.css">
         <link rel="stylesheet" href="./assets/css/cotacao.css">
-        <link rel="stylesheet" href="/assets/css/imagem-principal.css">
+        <link rel="stylesheet" href="./assets/css/footer.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./assets/css/carousel.css">
 
         <title>AMAR - Agência de Viagens</title>
     </head>
@@ -33,10 +34,50 @@
         </header>
         
         <main>
-            <section>
+            <section class="slider">
                 
-                <img src="/assets/img/img-principa.png" alt="" class="principal">
+                <section class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+
+                    <!--
+                    <button class="arrow--left contro" aria-label="Previous-image">⮞</button>
+                    <button class="arrow--right contro" aria-label="Next-image">⮜</button>
+                    -->
+                    <section class="slide first">
+                        <img src="./assets/img/img-principa.png" alt="">
+                    </section>
+                    <section class="slide">
+                        <img src="./assets/img/carousel/lisboa-portugal.jpg" alt="">
+                    </section>
+                    <section class="slide">
+                        <img src="./assets/img/carousel/paris-franca.jpg" alt="">
+                    </section>
+                    <section class="slide">
+                        <img src="./assets/img/carousel/toquio-japao.jpg" alt="">
+                    </section>
+                    
+
+                    <section class="navegacao-auto">
+                        <section class="auto-btn1"></section>
+                        <section class="auto-btn2"></section>
+                        <section class="auto-btn3"></section>
+                        <section class="auto-btn4"></section>
+                    </section>
+
+                </section>
+
+                <section class="manual-navegacao">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </section>
+
             </section>
+            
             <section class="sobre" id="sobre__link">
                 <img src="./assets/img/praia.png" alt="">
                 <section class="sobre__texto">
@@ -83,7 +124,7 @@
                         <button class="arrow-right control" aria-label="Next-image">⮜</button>
                         <ul class="caixa">
                             <li class="details">
-                                <img src="./assets/img/carousel/manati-porto-rico.jpg" class="item">
+                                <img src="./assets/img/carousel/manati-porto-rico.jpg" class="item current-item">
                                 <h3 class="subtitulo-destinos">Manati, Porto Rico</h3>
                                 <section class="ida-volta-text">
                                     <h5>15 de fev 2023 - 25 de fev 2023</h5>
@@ -92,7 +133,7 @@
                                 <h4>R$ 852,00</h4>
                             </li>
                             <li class="details">
-                                <img src="./assets/img/carousel/paris-franca.jpg" class="item current-item">
+                                <img src="./assets/img/carousel/paris-franca.jpg" class="item ">
                                 <h3 class="subtitulo-destinos">Paris , França</h3>
                                 <section class="ida-volta-text">
                                     <h5>15 de fev 2023 - 25 de fev 2023</h5>
@@ -260,6 +301,7 @@
         </footer>
 
         <script src="./assets/js/link-interativo-orcamento.js"></script>
+        <script src="./assets/js/slider.js"></script>
         <script src="./assets/js/carousel.js"></script>
     </body>
 </html>
